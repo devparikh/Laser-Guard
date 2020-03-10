@@ -1,0 +1,55 @@
+.Image {
+    padding: 30px:
+}
+
+
+
+
+.link-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+
+}
+
+
+.left-side{
+    display: flex;
+}
+
+.link-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase
+}
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-size: 100%;
+    background-color: blue;
+    
+}
+
+.nav-link-wrapper{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+
+}
+
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+     border-bottom: 1px solid black
+    
+}
+
+.nav-link-wrapper a:hover {
+    color: black
+   
+}
