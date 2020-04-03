@@ -1,0 +1,30 @@
+body{
+    background: scroll;
+    background-color: black;
+}
+
+.mainpage-link{
+    color: white;
+    margin-right: 20em;
+
+}
+
+.mainpage-link:hover{
+    border-bottom: 1px solid blue;
+}
+
+.mainpage-link a:hover{
+    color: green
+}
+
+.Text{
+
+    padding-left: 20px:
+    color: white;
+
+}
+
+.heading{
+    color: white;
+    padding-left: 20px;
+}
